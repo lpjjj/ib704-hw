@@ -6,10 +6,10 @@ def lpj(num):
             if num == 1 or num == 3 or num == 5:return True
         elif num%3==0:
             num = num / 3
-            if num == 1 or num == 2 or num == 5:return True
+            if num == 1 or num == 5:return True
         elif num%5==0:
             num = num / 5
-            if num == 1 or num == 2 or num == 3: return True
+            if num == 1: return True
         else : return False
     else : return False
 
