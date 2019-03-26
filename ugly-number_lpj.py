@@ -1,6 +1,6 @@
 
 def lpj(num):
-    while pow(2, 31) >= num >= -pow(2, 31) and num != 0:
+    while pow(2, 31) > num >= -pow(2, 31) and num != 0:
         if num % 2 == 0:
             num = num / 2
             if num == 1 or num == 3 or num == 5:return True
