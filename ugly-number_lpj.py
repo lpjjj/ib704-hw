@@ -17,5 +17,5 @@ assert lpj(14) is False, 'fall'
 assert lpj(30) is True , 'fall'
 assert lpj(6) is True , 'fall'
 assert lpj(4294967296) is False, 'fall'
-assert lpj(2147483648) is True , 'fall'
+assert lpj(2147483648) is False , 'fall'
 
