@@ -14,8 +14,8 @@ def ugly2 (n):
                 none.append(i)
         return order
     # order.index = range(1, len(order) + 1)
-    # return order.index(256)
-    # print(order.index(256))
+
 print(ugly2(260))
 
+#still not finish
 
